@@ -1,8 +1,8 @@
 #!/usr/bin/env perl6
 
-use BioInfo::Parser::FASTA;
+#use BioInfo::Parser::FASTA;
 
-use BioInfo::IO::FileParser;
+#use BioInfo::IO::FileParser;
 
 sub MAIN (Str $file!, Rat :$threshold=0.3) {
     die "Not a file ($file)" unless $file.IO.f;
